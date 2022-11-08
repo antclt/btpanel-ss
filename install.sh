@@ -12,7 +12,7 @@ Install_ss()
 {
     pip install shadowsocks m2crypto
     mkdir -p $pluginPath
-    \cp -a -r ss_main.py icon.png info.json index.html install.sh ss.init shadowsocks.zip shadowsocks-nightly-4.2.5.apk $pluginPath/
+    \cp -a -r ss_main.py icon.png info.json index.html install.sh ss.init shadowsocks.zip shadowsocks.apk $pluginPath/
     \cp -a -r ss.init /etc/init.d/ss
     chmod +x /etc/init.d/ss
     chkconfig --add ss
